@@ -1,4 +1,4 @@
-## Hi there 👋
+## Your IP address has been recorded and will be sent to the authorities
 
 <!--
 **Rabitsmart/rabitsmart** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
