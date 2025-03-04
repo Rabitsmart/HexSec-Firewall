@@ -1,18 +1,25 @@
 ## Your IP address has been recorded and will be sent to the authorities
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.4">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; -webkit-text-stroke: #000000}
-    span.s1 {font-kerning: none}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Security Warning</title>
+    <script>
+        function annoyingPopUp() {
+            setTimeout(function() {
+                alert("⚠ Warning: Unauthorized Access Detected! ⚠");
+                annoyingPopUp();
+            }, 2000); // Repeat every 2 seconds
+        }
+
+        window.onload = function() {
+            annoyingPopUp();
+        };
+    </script>
 </head>
 <body>
-<p class="p1"><span class="s1">&lt;!DOCTYPE html&gt; &lt;html lang="en"&gt; &lt;head&gt; &lt;meta charset="UTF-8"&gt; &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt; &lt;title&gt;Security Warning&lt;/title&gt; &lt;script&gt; function annoyingPopUp() { setTimeout(function() { alert("⚠ Warning: Unauthorized Access Detected! ⚠"); annoyingPopUp(); }, 2000); // Repeat every 2 seconds } window.onload = function() { annoyingPopUp(); }; &lt;/script&gt; &lt;/head&gt; &lt;body&gt; &lt;h1 style="text-align: center; margin-top: 20%;"&gt;System Security Scan in Progress...&lt;/h1&gt; &lt;p style="text-align: center;"&gt;Please wait while we verify your connection.&lt;/p&gt; &lt;/body&gt; &lt;/html&gt;</span></p>
+    <h1 style="text-align: center; margin-top: 20%;">System Security Scan in Progress...</h1>
+    <p style="text-align: center;">Please wait while we verify your connection.</p>
 </body>
 </html>
