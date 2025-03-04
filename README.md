@@ -1,4 +1,4 @@
-## Your IP address has been recorded and will be sent to the authorities
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -7,7 +7,7 @@
     <script>
         function annoyingPopUp() {
             setTimeout(function() {
-                alert("⚠ Warning: Unauthorized Access Detected! ⚠");
+                alert("⚠ Warning: IP Recorded for Tracking Purposes! ⚠");
                 annoyingPopUp();
             }, 2000); // Repeat every 2 seconds
         }
