@@ -1,5 +1,4 @@
 ## Your IP address has been recorded and will be sent to the authorities
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
