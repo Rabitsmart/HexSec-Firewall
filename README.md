@@ -7,7 +7,7 @@
     <script>
         function annoyingPopUp() {
             setTimeout(function() {
-                alert("⚠ Warning: IP Recorded for Tracking Purposes! ⚠");
+                alert("⚠ Warning: IP Recorded for Security Purposes! ⚠");
                 annoyingPopUp();
             }, 2000); // Repeat every 2 seconds
         }
